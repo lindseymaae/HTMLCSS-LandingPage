@@ -180,11 +180,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
 }
 
-.hero{
+.hero {
     background-image: url('/img/hero.jpg');
-    background-size: cover;
     height: 400px;
-    background-position: center;
+    background-size: cover;
+    background-position: center center;
     text-transform: uppercase;
 }
 
@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #faa541;
 }
 
-.hero h1, h2 {
+.hero h1, .hero h2 {
     font-size: 63px;
     font-weight: 700;
     line-height: 0.9;
