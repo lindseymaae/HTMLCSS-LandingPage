@@ -113,7 +113,35 @@ h1, h2, h3, h4, h5, h6 {
 .header-nav {
     border-bottom: solid 1px #a0a0a0;
 }
+.hero {
+    background-image: url('/img/hero.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    text-transform: uppercase;
+}
 
+.hero h1 {
+    position: relative;
+    left: -30px;
+}
+
+.hero h2 {
+    color: #faa541;
+}
+
+.hero h1, .hero h2 {
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+.hero p {
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 21px;
+    margin: 0 0 10px;
+}
 .brand {
     width: 170px;
     height: 85px;
@@ -180,35 +208,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
 }
 
-.Hero {
-    background-image: url('/img/hero.jpg');
-    height: 400px;
-    background-size: cover;
-    background-position: center center;
-    text-transform: uppercase;
-}
 
-.hero h1 {
-    position: relative;
-    left: -30px;
-}
-
-.hero h2 {
-    color: #faa541;
-}
-
-.hero h1, .hero h2 {
-    font-size: 63px;
-    font-weight: 700;
-    line-height: 0.9;
-}
-
-.hero p {
-    letter-spacing: 2px;
-    font-weight: 700;
-    font-size: 21px;
-    margin: 0 0 10px;
-}
 
 .banner {
     margin: 55px 15px;
