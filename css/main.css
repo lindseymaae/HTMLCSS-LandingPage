@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: solid 1px #a0a0a0;
 }
 .hero {
-    background-image: url('/img/hero.jpg');
+    background-image: url('../img/hero.jpg');
     height: 400px;
     background-size: cover;
     background-position: center center;
