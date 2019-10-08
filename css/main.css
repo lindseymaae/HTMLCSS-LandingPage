@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
 }
 
-.hero {
+.Hero {
     background-image: url('/img/hero.jpg');
     height: 400px;
     background-size: cover;
